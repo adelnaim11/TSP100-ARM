@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RuntimeIdentifiers>win-arm64;win-x64</RuntimeIdentifiers>
+    <AssemblyName>TSP100Bridge</AssemblyName>
+    <RootNamespace>TSP100Bridge</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Adel Naim</Authors>
+    <Company>Adel Naim</Company>
+    <Product>TSP100 Bridge</Product>
+    <Description>Star TSP100 receipt printer support for Windows on ARM</Description>
+    <Copyright>Copyright (c) 2026 Adel Naim</Copyright>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+  </ItemGroup>
+</Project>

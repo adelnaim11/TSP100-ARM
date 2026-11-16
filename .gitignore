@@ -1,0 +1,13 @@
+# Build output
+bin/
+obj/
+*.user
+.vs/
+
+# Never commit vendor installers (Star Micronics software is not ours to redistribute)
+*.exe
+*.EXE
+*.msi
+
+# Local exports
+*.docx
